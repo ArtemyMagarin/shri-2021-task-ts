@@ -8,7 +8,7 @@ export type MdOptions = {
 }
 
 
-export function markdown(text: String, options: MdOptions) {
+export function markdown(text: string, options: MdOptions) {
     let result = text;
     if (options) {
         if (options.bold) {
